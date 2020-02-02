@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <el-button v-show="mapType==='city'" size="samll" @click="drawMap">返回全国</el-button>
+    <el-button v-show="mapType==='city'" size="mini" @click="drawMap">返回全国</el-button>
     <div class="china-map" id="china-map" style="height: 300px"></div>
   </div>
 </template>
