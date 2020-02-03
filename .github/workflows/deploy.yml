@@ -1,8 +1,10 @@
-name: GitHub Actions Build and Deploy Demo
+name: GitHub Actions Build and Deploy
 on:
   push:
     branches:
       - master
+  schedule:
+    -corn: '*/30 * * * *'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
