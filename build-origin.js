@@ -39,7 +39,8 @@ const loadCityList = async html => {
         }
         return {
           ...city,
-          fullCityName
+          fullCityName,
+          name: cityName
         }
       })
     }
