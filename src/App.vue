@@ -10,8 +10,8 @@
 import area from './data/area.json'
 // import 'echarts/map/js/province/chongqing'
 // 全量引入，就不需要像上面一样一个一个地引入 https://segmentfault.com/a/1190000019723837
-const rjs = require.context("echarts/map/js/province");
-rjs.keys().forEach(rjs);
+const rjs = require.context("echarts/map/js/province")
+rjs.keys().forEach(rjs)
 export default {
   name: "app",
   data() {
